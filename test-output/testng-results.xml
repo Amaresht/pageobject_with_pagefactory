@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="281450" started-at="2018-02-07T04:09:27Z" finished-at="2018-02-07T04:14:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="281450" started-at="2018-02-07T04:09:27Z" finished-at="2018-02-07T04:14:09Z">
+      <class name="com.facebook.testcases.LoginTest">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="doLogin" duration-ms="215543" started-at="2018-02-07T09:39:27Z" data-provider="getdata" finished-at="2018-02-07T09:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=amaresh.tester@gmail.com, ExpectedResult=Success, Password=amresh@2016, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="quit" is-config="true" duration-ms="701" started-at="2018-02-07T09:43:03Z" finished-at="2018-02-07T09:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="doLogin" duration-ms="63059" started-at="2018-02-07T09:43:04Z" data-provider="getdata" finished-at="2018-02-07T09:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=Sushanth@gmail.com, ExpectedResult=Unsucces, Password=12345, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="quit" is-config="true" duration-ms="101" started-at="2018-02-07T09:44:07Z" finished-at="2018-02-07T09:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="doLogin" duration-ms="773" started-at="2018-02-07T09:44:07Z" data-provider="getdata" finished-at="2018-02-07T09:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=, ExpectedResult=, Password=, Runmode=N, Browser=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is N
+	at com.facebook.testcases.LoginTest.doLogin(LoginTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="quit" is-config="true" duration-ms="106" started-at="2018-02-07T09:44:08Z" finished-at="2018-02-07T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="doLogin" duration-ms="534" started-at="2018-02-07T09:44:08Z" data-provider="getdata" finished-at="2018-02-07T09:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=, ExpectedResult=, Password=, Runmode=N, Browser=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is N
+	at com.facebook.testcases.LoginTest.doLogin(LoginTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="quit" is-config="true" duration-ms="93" started-at="2018-02-07T09:44:08Z" finished-at="2018-02-07T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="doLogin" duration-ms="293" started-at="2018-02-07T09:44:08Z" data-provider="getdata" finished-at="2018-02-07T09:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=, ExpectedResult=, Password=, Runmode=N, Browser=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is N
+	at com.facebook.testcases.LoginTest.doLogin(LoginTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.facebook.testcases.LoginTest@1404bea]" name="quit" is-config="true" duration-ms="96" started-at="2018-02-07T09:44:09Z" finished-at="2018-02-07T09:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.facebook.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
